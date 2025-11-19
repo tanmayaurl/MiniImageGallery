@@ -1,4 +1,4 @@
-export const BASE = process.env.REACT_APP_API_BASE || 'http://localhost:4000';
+export const BASE = process.env.REACT_APP_API_BASE || 'https://miniimagegallery.onrender.com';
 
 export async function fetchImages() {
   const res = await fetch(`${BASE}/images`);
