@@ -1,6 +1,6 @@
-const app = require('./app');
+const app = require("./app");
+const PORT = process.env.PORT || 4000;
 
-const PORT = 4000;
 app.listen(PORT, () => {
-  console.log(`Mini Image Gallery backend listening on port ${PORT}`);
+  console.log("Backend running on port", PORT);
 });
